@@ -267,7 +267,7 @@ class SeoField extends Field implements PreviewableFieldInterface
 				'isHome' => $isHome,
 				'isSingle' => $isSingle,
 
-				'siteUrl' => UrlHelper::siteUrl(),
+                'siteUrl' => UrlHelper::siteUrl('', null, null, $element->siteId),
 				'socialPreviewUrl' => $socialPreviewUrl,
 				'hideSocial' => $hideSocial,
 
